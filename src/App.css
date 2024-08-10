@@ -1,7 +1,14 @@
 .App {
   text-align: center;
+ 
 }
-
+.per{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,7 +19,16 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+button{
+  background-color: #59b3fd;
+  color: white;
+  
+}
+h5{
+  color: hsl(207, 98%, 67%);
+  
+  
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
